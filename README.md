@@ -1,5 +1,6 @@
 # SpectralBundleMethod
-* We introduce the idea of Basis Pursuit using Block Factor width 2 matrices to Spectral Bundle Method 
+* We implement Spectral Bundle Method for SDP 
+* We introduce the idea of Basis Pursuit using Block Factor width 2 matrices into Spectral Bundle Method for SDP 
 
 # Related Paper
 * Zheng, Yang, Aivar Sootla, and Antonis Papachristodoulou. ["Block factor-width-two matrices and their applications to semidefinite and sum-of-squares optimization."](https://arxiv.org/abs/1909.11076) IEEE Transactions on Automatic Control (2022).
