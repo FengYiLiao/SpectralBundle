@@ -1,4 +1,6 @@
 function [obj]=f_hat_k_Paper(y,Paras,W1,P)
+    %Author: Feng-Yi Liao
+    
     G = Paras.c_sdp+Paras.At_sdp'*y;
     cnew = [G'*W1];
     cnew = [cnew;reshape(P'*mat(G)*P,[],1 )];

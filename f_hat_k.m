@@ -1,4 +1,6 @@
 function [obj]=f_hat_k(y,Paras,W1,W2,U)
+    %Author: Feng-Yi Liao
+    
     G = Paras.c_sdp+Paras.At_sdp'*y;
     cnew = [G'*W1;G'*W2];
     IndicesAll = Paras.IndicesAll;
